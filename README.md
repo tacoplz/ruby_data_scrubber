@@ -12,4 +12,6 @@ The first while loop has the regular expression to parse through the web page ht
 
 The second while loop is optional but I used it to clean up my data a little further. The file2_name variable is the name of the file in which the cleaned data while be stored. The while loop uses regular expressions to take out undesired data that was returned for several lines in my initial scrub. I couldn't get the code to work correctly unless I cleaned up the original file using a second block and while loop.
 
+To run the file you must have ruby installed on your machine. From the command line navigate ("cd") to the folder where you have saved the file. Type "ruby ruby_data_scrubber.rb" and your data should be saved within that directory (and in the chosen file) when the script completes.
+
 Disclaimer: My variable names could use some work. The data from mountain project was only used for proof of concept.
